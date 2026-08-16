@@ -13,19 +13,14 @@
 ## Установка и запуск
 
 ```bash
-# Клонирование репозитория проекта
 git clone [https://github.com/ArtemCh101/Agent_systems_HSE_2026.git](https://github.com/ArtemCh101/Agent_systems_HSE_2026.git)
 
-# Переход в рабочую директорию
 cd Agent_systems_HSE_2026
 
-# Установка всех необходимых зависимостей
 pip install -r requirements.txt
 
-# Загрузка основной модели Llama 3.1 в локальное окружение Ollama
 ollama pull llama3.1
 
-# Загрузка резервной модели Qwen 2.5 для режима отказоустойчивости
 ollama pull qwen2.5
 
 # Запуск CLI-приложения с конфигурацией по умолчанию
